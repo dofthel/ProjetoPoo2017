@@ -30,7 +30,7 @@ public class Usuario {
 	}
 	
 	public void tocar() {
-		
+		System.out.printl("Tocando");
 	}
 	public void cadastrarUsuario(){
 		//JOptionPane.showMessageDialog(null,"Comece o cadastro da sua conta.","",JOptionPane.INFORMATION_MESSAGE);
@@ -47,7 +47,7 @@ public class Usuario {
 			JOptionPane.showMessageDialog(null, "OK!", "Ok", JOptionPane.INFORMATION_MESSAGE);
 			}else{
 				for(int i =0;i <= 3; i++) {
-					JOptionPane.showMessageDialog(null, "As senhas não estão iguais, favor redigitá-las!", "Erro.", JOptionPane.ERROR_MESSAGE);
+					JOptionPane.showMessageDialog(null, "As senhas nÃ£o estÃ£o iguais, favor redigitÃ¡-las!", "Erro.", JOptionPane.ERROR_MESSAGE);
 					this.senha = JOptionPane.showInputDialog("Insira sua senha:");
 					this.confirmarSenha = JOptionPane.showInputDialog("Repita sua senha:");
 					if((i == 0 ||i == 1 || i == 2)){
@@ -60,7 +60,7 @@ public class Usuario {
 						}
 						}
 					else {
-						JOptionPane.showMessageDialog(null, "Você errou 3 vezes a senha, favor reiniciar o processo", "Falha no cadastro", JOptionPane.WARNING_MESSAGE);
+						JOptionPane.showMessageDialog(null, "VocÃª errou 3 vezes a senha, favor reiniciar o processo", "Falha no cadastro", JOptionPane.WARNING_MESSAGE);
 						this.cadastrarUsuario();
 						}
 					}
