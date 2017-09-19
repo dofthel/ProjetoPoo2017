@@ -16,6 +16,6 @@ public class Musico extends Usuario {
 	}
 	
 	public void tocar() {
-		
+		System.out.printl("Tocando");
 	}
 }
