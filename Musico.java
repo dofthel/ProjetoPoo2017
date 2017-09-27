@@ -12,7 +12,7 @@ public class Musico extends Usuario {
 	}
 	
 	public void receber(String nome, String nickname,String email) {
-		
+		JOptionPane.showMessageDialog(null, "Seu nome é " + nome + ", seu nickname é" + nickname + " e o seu email é " + email + "." , "Alguns dados.", JOptionPane.INFORMATION_MESSAGE);
 	}
 	
 	public void tocar() {
