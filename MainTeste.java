@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 public class MainTeste {
 	public static void main(String[] args) {
 		int x;
-		x = JOptionPane.showConfirmDialog(null, "Você Deseja se cadastrar no nosso APP?", "Cadastro",
+		x = JOptionPane.showConfirmDialog(null, "Você Deseja iniciar o Cadastro?", "Cadastro",
 				JOptionPane.INFORMATION_MESSAGE);
 		if (x == 0) {
 			Usuario user = new Usuario();
